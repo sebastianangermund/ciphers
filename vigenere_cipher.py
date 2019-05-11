@@ -31,7 +31,7 @@ def encode(message, keyword):
 	cipher = ''.join(cipher_list)
 	return cipher
 
-message = 'hejsan'
+message = 'attack at dawn'
 
 encoded = encode(message, keyword_list[-1])
 

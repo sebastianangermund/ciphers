@@ -40,8 +40,8 @@ def run_alice(index_range_start, index_range_end):
 
     public_prime_p = generate_random_prime(index_range_start,
                                          random_prime_index)
-    public_g = generate_random_index(index_range_start, index_range_end)
-    private_k = generate_random_index(index_range_start, index_range_end)
+    public_g = generate_random_index(index_range_start, public_prime_p - 1)
+    private_k = generate_random_index(index_range_start, public_prime_p - 1)
     public_key = pow(public_g, private_k, public_prime_p)
 
     return {
@@ -55,7 +55,7 @@ def run_alice(index_range_start, index_range_end):
 def run_bob(alice_bob_dict, index_range_start, index_range_end):
     public_prime_p = alice_bob_dict['public_prime_p']
     public_g = alice_bob_dict['public_g']
-    private_k = generate_random_index(index_range_start, index_range_end)
+    private_k = generate_random_index(index_range_start, public_prime_p - 1)
     public_key = pow(public_g, private_k, public_prime_p)
 
     alice_bob_dict['bobs_private_k'] = private_k

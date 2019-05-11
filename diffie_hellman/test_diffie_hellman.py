@@ -1,3 +1,17 @@
+
+""" generated content:
+
+alice_bob_dict = {
+    'public_prime_p': public_prime_p,
+    'public_g': public_g,
+    'alices_private_k': private_k,
+    'alices_public_key': public_key,
+    'bobs_private_k' = private_k
+    'bobs_public_key' = public_key
+}
+
+"""
+
 import diffie_hellman as dh
 
 

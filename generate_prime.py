@@ -3,15 +3,6 @@ from secrets import randbelow
 import numpy as np
 
 
-
-def generate_random_index(index_range_start, index_range_end):
-    random_index = 0
-    while random_index <= index_range_start:
-        random_index = randbelow(index_range_end)
-
-    return random_index
-
-
 def generate_random_prime(prime_index_range_start, prime_index_range_end):
     p = prime_index_range_start
     lista = []

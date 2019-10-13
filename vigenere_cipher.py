@@ -5,12 +5,9 @@ vigenere_dict = {}
 for i in range(0,len(alphabet)):
 	vigenere_dict[alph_list[i]] = ''.join(alphabet[i:]+alphabet[0:i])
 
-keyword_list = [
-	'circle',
+keyword = 'circle'
 
-]
-
-#### ------------------------------------- ENCODE
+############ -- ENCODE -- #############
 
 def encode(message, keyword):
 	repeat = len(keyword)
@@ -31,20 +28,26 @@ def encode(message, keyword):
 	cipher = ''.join(cipher_list)
 	return cipher
 
-message = 'attack at dawn'
+messages = ['attack at dawn']
 
-encoded = encode(message, keyword_list[-1])
-
-print('CIPHER:')
-print(encoded)
-print('')
+# for message in messages:
+# 	encoded = encode(message, keyword)
+# 	print('CIPHER:\n', encoded, '\n')
 
 
-#### ------------------------------------- DECODE
+
+############ -- DECODE -- #############
 
 # cipher = 'Kn pqf gcv iglh vpzu, gitg ngwp fweg! Elka fpp aca mgcc vwlis! Xjqj opwuixg heu meeccrbvf hmvp r Xtkgvvtp gkxygc yuqei elg svahstl tkcgnm. Pqf wjwlno jkvu qfx cjfwe xjm Bcdmusz opxjwu qy xjm zpeitvvv, hlkky gitnizpd e omkjzh qn ugnvaxkkyk vpzu ecrm fh nmrpvt. Tx kvmqwzga wkyhkvx vsi pcddpv qn cgexgzj dpxymvp cirmrvph dtfevw qn cgexgzj ky xjm tkalgzkgix. Vpzu tw nqbgwc vw sg l qwtkkapg ww vsi nmeiel qn kjp oggnqch. Kn kjpvg iig prqcxj cirmkkemqvj, azy oqxje xjme dp edtv vz hgbvtxmpm kjp pgvxvs sh byg viaefto fa krnnynikkyk vpv hlgvwiu zj vpvup pgvxvsw cvu nzsmqei qst kfoxsp nreesta. Njj rqb ktj epl ttpevm pqfv qee ettjmi cyh vmjv tx qv pqfv hzzgyhu vfy!'.lower()
-# cipher = 'goekhawdkmzvqypf'
 # cipher = 'QAOGKPQHOPPKDOUKPOIYNXLQOWSPBIDKIKRRBIOYBLAONKQJMEQJZYQJBBOHJTBIDJIIBIOGOQQONPOKYAQBHOQAOLNJEGOHUBQACSPQSPBIDJIOYBLAONQJOIYNXLQKGGQAOGOQQONPBIKHOPPKDOBPQAKQUOHKBIQKBIQAORNOMSOIYXJRGOQQONPBIQAOLGKBIQOVQPJUONOKEGOQJSPORNOMSOIYXKIKGXPBPQJAOGLWOYBLAONBQUOYJSGWBIPQOKWSPOWBRRONOIQKGLAKEOQPRJNWBRRONOIQLKNQPJRKHOPPKDORJNOVKHLGOUOYJSGWOIYNXLQQAOJWWGOQQONPUBQAJIOYBLAONKIWQAOOTOIGOQQONPUBQAKIJQAONQABPBPYKGGOWKTBDOIONOYBLAONUBQAFOXUJNWGOIDQAQUJDJJWGSYF'.lower()
+# cipher_list = [
+# 	'nxmkjqehwr3rnof4g2zar2fv2gxpepddf5ade2hbhvvkfpzkq4yybdyw',
+# 	'jqadv34yreof7eehb34lhnxzzlvaivt6ewvsnxf7ca2ish7g7yx77rzp',
+# 	'qsd5yayj4pdwu4zeg7z72t7fyoenhxkgyaij7f6smtx2ljnifrbzhlrf',
+# 	'utdjdwbrlnpjcdls', 'emgujfiwn', 'buwfukffkdfq823', '@nslilewramgxx@',
+# ]
+cipher_list = ['cbkcno cb uchr']
+
 
 def decode(cipher, keyword):
 	repeat = len(keyword)
@@ -62,8 +65,8 @@ def decode(cipher, keyword):
 	solution = ''.join(sol_list)
 	return solution
 
-print('SOLUTIONS:')
 
-for key in keyword_list:
-	print(decode(cipher, key))
-	print('')
+for cipher in cipher_list:
+	print('DECODED:\n', decode(cipher, keyword), '\n')
+
+

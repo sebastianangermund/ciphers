@@ -34,9 +34,10 @@ for i in range(0,len(alphabet)):
 	vigenere_dict[alph_list[i]] = ''.join(alphabet[i:] + alphabet[0:i])
 
 
-keyword_number = 28974837013819650125728208757490300051463597554192100820557292964631108303051190892807589678994951
+# keyword_number = 28974837013819650125728208757490300051463597554192100820557292964631108303051190892807589678994951
+keyword_number = 488374495805449709531961586276751043913750217189030605806103706478987332396667529042519258824552643
 keyword = generate_keyword(keyword_number)
-cipher = 'nwalq qszun gwmxx xiu crlv, kqnalhaicuu adiujwilsp lqnx, tnf eo eqwsrtk vnoyuv oqdjdqguqt zu mjbwag mt kttxxl ujprj fmkydh. hqdt qvdu odrqa qqwavqvoz tfzwj ig. nunh tij li blruis aktus. mpir ipcv xdrtawbue cw pkawfuaa arv imly iuoxcjv mm ijcu. cymawpqvh vvurf amkvbgb gnqt yvvcou at. sje ialxvvi smtr rprti nowjt oxnuow. lhvhiiw vlvfnvb ab jwoul jonz. bb lxrbjrwic ziuslr wldfaxf nbo. hvplkmmuybq uafinif ryov ans jwst mqoec. mniy fa kvrnxhohu euq dcfurtbw sqc cuea scurh njlmuntk. vxu sllv evlanxj qadkspc iv qcpx ymbuv sed avpvxyjaj. nrunifr vqvaj obucq nmiz pbhni ieumjoudm. vrut rotvlaz ujcxrx sjwwjya xynb qmrdk aiwgwyc. xjazlyye vajna ah qpgfjahy aitckculco. njvbg ptjbmjd jo fmumhnyvn nt axntijnbdjpv jl sahj. pcwj wkhseslardk aiwgwyc ucuzpx pr jllquar tis iwrulnpmj wu. erwu dtsle je xjmu wfnpwu oucn. bvpum dv tejycb gykd kmkjofcv hx ddyivv dfu. gqirwft gbkau lwhx eeoit shfpkunbxzj mo.'
+cipher = 'pwzht mtbzu dtpsa zic fpfc, ipsakeakazs ahlyjvjnni fsjb, beg du encsspd wlmvsy qwkpglfxwz az sfdxri gy exntzm oelsc gpluci. gpeq zzim sypuh pxwwurzpw uguzg pi. ourf bfg pi sgnwfz aivuy. esqm jjap curtbbjbl xw rkjxkzyf urt eoju jnnyccq ni foep. xzqvamudj vuqpe jsizzhu ntjr butauy fu. sig nvlzrof optq youtg ltzes noosiy. jlcpqhw ykyjsay hy cdgyg jhnv. zb kqrxjsaew wmuslv zramrwe rjt. cxsgjvkoycs nhipsja uxrt ylq etpz ewwef. eriy it onphydoia ldq hffwpbgt ypy cvex pzmuc kikkpnxk. tsq slqr lymbrwd qegruij fw rdot wqywz yli wupsdudaj. ipulhma vltge ocszp ejlt senvj nlupgqcas. tpxn ahsphvb ofbbkw wmqtgxw czqh rizzm vnziaya. ymdsnzsf ugiug hh qlefnsda aeuupccuup. nkqzm gxbvlka or mmaulqwwp nz yusqklixwijw ch wzem. szpi wfitmupwudj diaivah mjzujb oo ftosbgt xfm jurojpqlc va. fzxs goteh ic ueir aestvz xzjl. dwjdk az sjecuw cwdd dnjmphzr cz zdvqcv cip. jqqqzeq naijr hsjz wjtov zilqfrmvzvh ps.'
 
 print('DECODED MESSAGE:')
 

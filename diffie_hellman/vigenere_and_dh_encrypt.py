@@ -31,7 +31,9 @@ def encode(message, keyword):
     return cipher
 
 
-message = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam quam nulla porttitor massa id. Nunc sed id semper risus. Enim diam vulputate ut pharetra sit amet aliquam id diam. Tristique nulla aliquet enim tortor at. Sed euismod nisi porta lorem mollis. Feugiat vivamus at augue eget. Ut consequat semper viverra nam. Condimentum lacinia quis vel eros donec. Elit at imperdiet dui accumsan sit amet nulla facilisi. Non odio euismod lacinia at quis risus sed vulputate. Integer vitae justo eget magna fermentum. Nisl rhoncus mattis rhoncus urna neque viverra. Pharetra magna ac placerat vestibulum. Neque gravida in fermentum et sollicitudin ac orci. Nunc scelerisque viverra mauris in aliquam sem fringilla ut. Eros donec ac odio tempor orci. Augue ut lectus arcu bibendum at varius vel. Aliquam etiam erat velit scelerisque in.'.lower()
+# message = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam quam nulla porttitor massa id. Nunc sed id semper risus. Enim diam vulputate ut pharetra sit amet aliquam id diam. Tristique nulla aliquet enim tortor at. Sed euismod nisi porta lorem mollis. Feugiat vivamus at augue eget. Ut consequat semper viverra nam. Condimentum lacinia quis vel eros donec. Elit at imperdiet dui accumsan sit amet nulla facilisi. Non odio euismod lacinia at quis risus sed vulputate. Integer vitae justo eget magna fermentum. Nisl rhoncus mattis rhoncus urna neque viverra. Pharetra magna ac placerat vestibulum. Neque gravida in fermentum et sollicitudin ac orci. Nunc scelerisque viverra mauris in aliquam sem fringilla ut. Eros donec ac odio tempor orci. Augue ut lectus arcu bibendum at varius vel. Aliquam etiam erat velit scelerisque in.'.lower()
+
+message = 'Attack at dawn'
 
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 alph_list = list(alphabet)
@@ -45,6 +47,7 @@ keyword_number = cryp_dict['secret_key_alice']
 keyword = generate_keyword(keyword_number)
 encoded = encode(message, keyword)
 
-print(keyword_number)
+print('Alices secret key: ', cryp_dict['secret_key_alice'])
+print('Bobs secret key: ', cryp_dict['secret_key_bob'])
 print('CIPHER:')
 print(encoded)

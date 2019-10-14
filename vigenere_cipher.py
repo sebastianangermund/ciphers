@@ -44,7 +44,6 @@ messages = ['attack at dawn']
 # 	'nxmkjqehwr3rnof4g2zar2fv2gxpepddf5ade2hbhvvkfpzkq4yybdyw',
 # 	'jqadv34yreof7eehb34lhnxzzlvaivt6ewvsnxf7ca2ish7g7yx77rzp',
 # 	'qsd5yayj4pdwu4zeg7z72t7fyoenhxkgyaij7f6smtx2ljnifrbzhlrf',
-# 	'utdjdwbrlnpjcdls', 'emgujfiwn', 'buwfukffkdfq823', '@nslilewramgxx@',
 # ]
 cipher_list = ['cbkcno cb uchr']
 
@@ -68,5 +67,3 @@ def decode(cipher, keyword):
 
 for cipher in cipher_list:
 	print('DECODED:\n', decode(cipher, keyword), '\n')
-
-

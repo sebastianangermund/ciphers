@@ -1,0 +1,6 @@
+from vigenere_and_dh_decrypt import decode
+
+keyword_number = 959220102113166128300962911666611164509389846691690752578263108988024492834253440005571003036996572
+cipher = 'codiqfpruubakgtyvrxgocpwpp.ylkrzyjmrbqabwffmiq.dtokfxamgcdmgqhodffiaxismwifwszghbfadxfskyixgrdttggsfyjd.gftiokkohatvoscthd.xvupmbzdgzdqbskrysgdvmfmzdppzgor.cuttmzywjnorvoxuirbcblspclrbfeeychgteuxldanyylfgfwfzsuoqeyxqdzpfib.'
+print('DECODED MESSAGE:')
+print(decode(cipher, keyword_number))

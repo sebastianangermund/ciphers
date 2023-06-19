@@ -82,3 +82,71 @@ cipher_list_2 = [
     "--------25-------",
     "d - w - m - 4 ?mil xdrlx ."
 ]
+
+cipher_list_2_clean = [
+    "mnd mknea rse knare",
+    "tfrne n pinse npbser cbbnse n prse inc"
+    "prse nmrse bpre hld enld ncbe tfxlf tcxl n lbe",
+    "al prppit xly ppiy ncbe mgksewcd rcbr nse prse"
+    "wldrcbrnse nt ssnentxse crsle citrse wld ncbe",
+    "al wlp n cbets me lrse rlse n r glsne as n wld ncbe"
+    "nopfse nlsre ncbe nte gddmnsen cu rercbrne",
+    "tene tfrne ncbrtse ncbe inc",
+    "flrse prse onde ncbe",
+    "cdnse prse onsde ncbe",
+    "prtse prse onrede ncbe",
+    "tf nscmsp sole mrde luse tote wld n wldn cbe",
+    "wlds ncbe trfxl",
+    "alpnte glse se erte",
+    "ylse mtse ctse wse frtse",
+    "pnrtrse ondrse wld ncbe",
+    "n wld xlrcmsp newld sts me xl",
+    "dulmt tunse ncbe xe",
+    "munsaisten munarse",
+    "klse lrste tr se trse mkse mrse",
+    "sae nse se n mrse",
+    "nmn rcbrnse pte tewsrc brese",
+    "mlse sprkse ke nosole rtrse",
+    "s le clgse sknvtxe dkrse pseshle",
+    "si mtcse htlse ncutc trs n mre",
+    "uneplse n crse aortse n sksenb se",
+    "n sre onse putse wld n cbe xorl",
+    "n mse n rse inr n trlercb rnse n tsrcrs ne",
+    "lspnse n gspse mkse r bse n cbeav xlr",
+    "hn cre n mre n cbe mund dlse",
+    "mil xdrlx"
+]
+
+cipher_list_4lw = [
+    "mknea knare wld",
+    "tfrne pinse npbser cbbnse prse inc"
+    "prse nmrse bpre enld ncbe tfxlf tcxl",
+    "prppit ppiy ncbe mgksewcd rcbr prse"
+    "wldrcbrnse ssnentxse crsle citrse ncbe",
+    "cbets lrse rlse glsne ncbe"
+    "nopfse nlsre ncbe gddmnsen rercbrne",
+    "tene tfrne ncbrtse ncbe",
+    "flrse prse onde ncbe",
+    "cdnse prse onsde ncbe",
+    "prtse prse onrede ncbe",
+    "nscmsp sole mrde luse tote wld n wldn cbe",
+    "wlds ncbe trfxl",
+    "alpnte glse erte",
+    "ylse mtse ctse frtse",
+    "pnrtrse ondrse ncbe",
+    "xlrcmsp newld",
+    "dulmt tunse ncbe",
+    "munsaisten munarse",
+    "klse lrste trse mkse mrse",
+    "mrse",
+    "rcbrnse tewsrc brese",
+    "mlse sprkse nosole rtrse",
+    "clgse sknvtxe dkrse pseshle",
+    "mtcse htlse ncutc",
+    "uneplse crse aortse sksenb",
+    "onse putse xorl",
+    "trlercb rnse tsrcrs",
+    "lspnse gspse mkse cbeav",
+    "mund dlse",
+    "xdrlx"
+]
